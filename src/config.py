@@ -24,7 +24,7 @@ class Config:
             self.input_mode = config.get('input_mode', "text")
             
             # 加载 PPT 默认模板路径，若未指定则使用默认模板
-            self.ppt_template = config.get('ppt_template', "templates/MasterTemplate.pptx")
+            self.ppt_template = config.get('ppt_template', "templates/FairFramePresentation.pptx")
 
             # 加载 ChatBot 提示信息
             self.chatbot_prompt = config.get('chatbot_prompt', '')
